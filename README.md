@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Gaming Zone</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: #00ffcc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff00ff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(45deg, #000, #111);
+}
+.hero h1 {
+    font-size: 40px;
+    color: #00ffcc;
+}
+.hero p {
+    color: #ccc;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>🎮 Welcome to My Gaming Zone</h1>
+    <p>Clips • Skills • Highlights</p>
+</section>
+
+<section id="gallery">
+    <h2 style="text-align:center;">🔥 My Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300x200" alt="">
+        <img src="https://via.placeholder.com/300x200" alt="">
+        <img src="https://via.placeholder.com/300x200" alt="">
+        <img src="https://via.placeholder.com/300x200" alt="">
+    </div>
+</section>
+
+<section id="contact" style="text-align:center; padding:20px;">
+    <h2>📩 Contact Me</h2>
+    <p>Email: your@email.com</p>
+</section>
+
+<footer>
+    <p>© 2026 My Gaming Website</p>
+</footer>
+
+</body>
+</html>index.html
